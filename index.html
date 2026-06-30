@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kushwanth Kumar Bevara — Full Stack Engineer</title>
+<meta name="description" content="Full Stack Engineer building production-grade systems with React, Node.js, Django, and AI integrations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">KB<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a href="#systems">systems</a>
+      <a href="#stack">stack</a>
+      <a href="#log">log</a>
+      <a href="#contact">contact</a>
+    </div>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">// full stack engineer</p>
+      <h1>Kushwanth Kumar<br>Bevara</h1>
+      <p class="hero-sub">I design and ship complete systems — from database schema to deployed UI — wiring in payments, AI, and auth along the way.</p>
+      <div class="hero-actions">
+        <a href="#systems" class="btn btn-primary">View systems</a>
+        <a href="assets/Kushwanth_Kumar_Resume.pdf" class="btn btn-ghost" download>Download résumé</a>
+      </div>
+    </div>
+
+    <div class="status-panel">
+      <div class="status-header">
+        <span class="status-dot"></span>
+        <span>system_status.log</span>
+      </div>
+      <div class="status-body">
+        <div class="status-row">
+          <span class="status-label">edulearn-api</span>
+          <span class="status-value status-up">● live</span>
+        </div>
+        <div class="status-row">
+          <span class="status-label">edulearn-web</span>
+          <span class="status-value status-up">● live</span>
+        </div>
+        <div class="status-row">
+          <span class="status-label">job-tracker-api</span>
+          <span class="status-value status-up">● live</span>
+        </div>
+        <div class="status-row">
+          <span class="status-label">job-tracker-web</span>
+          <span class="status-value status-up">● live</span>
+        </div>
+        <div class="status-row">
+          <span class="status-label">payments::razorpay</span>
+          <span class="status-value status-up">● verified</span>
+        </div>
+        <div class="status-row">
+          <span class="status-label">ai::groq-llama3.3</span>
+          <span class="status-value status-up">● connected</span>
+        </div>
+        <div class="status-divider"></div>
+        <div class="status-row status-footer">
+          <span class="status-label">uptime</span>
+          <span class="status-value">2 systems · 0 downtime</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="metrics">
+  <div class="metrics-inner">
+    <div class="metric">
+      <span class="metric-num">40+</span>
+      <span class="metric-label">REST endpoints shipped</span>
+    </div>
+    <div class="metric">
+      <span class="metric-num">2</span>
+      <span class="metric-label">production apps deployed</span>
+    </div>
+    <div class="metric">
+      <span class="metric-num">9.10</span>
+      <span class="metric-label">MCA GPA</span>
+    </div>
+    <div class="metric">
+      <span class="metric-num">3</span>
+      <span class="metric-label">role-based access systems built</span>
+    </div>
+  </div>
+</section>
+
+<section class="systems" id="systems">
+  <div class="section-head">
+    <p class="eyebrow">// 01 — systems built</p>
+    <h2>Not demos. Deployed products.</h2>
+  </div>
+
+  <article class="system-card">
+    <div class="system-meta">
+      <span class="system-tag">production</span>
+      <span class="system-year">2026</span>
+    </div>
+    <h3>EduLearn</h3>
+    <p class="system-desc">AI-powered e-learning platform with three distinct user roles, secure payments, and automated content generation — built to feel like a real product, not a tutorial clone.</p>
+
+    <div class="system-grid">
+      <div class="system-detail">
+        <span class="detail-label">Role-based access</span>
+        <span class="detail-text">Student / Instructor / Admin with JWT auth + RBAC across 40+ endpoints</span>
+      </div>
+      <div class="system-detail">
+        <span class="detail-label">Payments</span>
+        <span class="detail-text">Razorpay integrated with HMAC SHA256 webhook verification</span>
+      </div>
+      <div class="system-detail">
+        <span class="detail-label">AI layer</span>
+        <span class="detail-text">Groq + LLaMA 3.3 for quiz generation & personalized recommendations</span>
+      </div>
+      <div class="system-detail">
+        <span class="detail-label">Infrastructure</span>
+        <span class="detail-text">Vercel + Render + MongoDB Atlas, Cloudinary video streaming, PDFKit certificates</span>
+      </div>
+    </div>
+
+    <div class="system-stack">
+      <span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Groq AI</span><span>Tailwind</span>
+    </div>
+
+    <div class="system-links">
+      <a href="https://edulearn-sigma-ten.vercel.app/" target="_blank" rel="noopener">Live site →</a>
+      <a href="https://github.com/kushwanthkumar73/edulearn" target="_blank" rel="noopener">Source →</a>
+    </div>
+  </article>
+
+  <article class="system-card">
+    <div class="system-meta">
+      <span class="system-tag">production</span>
+      <span class="system-year">2026</span>
+    </div>
+    <h3>AI Job Tracker</h3>
+    <p class="system-desc">A job-application command center: parses postings, scores resume fit, drafts cover letters, and tracks every application through a Kanban pipeline.</p>
+
+    <div class="system-grid">
+      <div class="system-detail">
+        <span class="detail-label">AI matching</span>
+        <span class="detail-text">JD parsing + resume match scoring (0–100) via Groq AI</span>
+      </div>
+      <div class="system-detail">
+        <span class="detail-label">Data model</span>
+        <span class="detail-text">Normalized PostgreSQL schema with Django REST Framework</span>
+      </div>
+      <div class="system-detail">
+        <span class="detail-label">Workflow</span>
+        <span class="detail-text">Kanban board: Applied → Interview → Offer → Rejected</span>
+      </div>
+      <div class="system-detail">
+        <span class="detail-label">Infrastructure</span>
+        <span class="detail-text">Vercel frontend + Render backend + managed PostgreSQL</span>
+      </div>
+    </div>
+
+    <div class="system-stack">
+      <span>React</span><span>Django</span><span>PostgreSQL</span><span>Groq AI</span><span>JWT</span><span>Tailwind</span>
+    </div>
+
+    <div class="system-links">
+      <a href="https://ai-job-tracker-orcin.vercel.app/" target="_blank" rel="noopener">Live site →</a>
+      <a href="https://github.com/kushwanthkumar73/ai-job-tracker" target="_blank" rel="noopener">Source →</a>
+    </div>
+  </article>
+</section>
+
+<section class="stack" id="stack">
+  <div class="section-head">
+    <p class="eyebrow">// 02 — stack</p>
+    <h2>Tools I reach for.</h2>
+  </div>
+
+  <div class="stack-grid">
+    <div class="stack-group">
+      <h4>Frontend</h4>
+      <ul>
+        <li>React.js</li>
+        <li>Tailwind CSS</li>
+        <li>Framer Motion</li>
+        <li>HTML5 / CSS3</li>
+      </ul>
+    </div>
+    <div class="stack-group">
+      <h4>Backend</h4>
+      <ul>
+        <li>Node.js / Express</li>
+        <li>Python Django</li>
+        <li>Django REST Framework</li>
+        <li>RESTful API design</li>
+      </ul>
+    </div>
+    <div class="stack-group">
+      <h4>Data</h4>
+      <ul>
+        <li>MongoDB (Mongoose)</li>
+        <li>PostgreSQL</li>
+        <li>MySQL / SQLite</li>
+      </ul>
+    </div>
+    <div class="stack-group">
+      <h4>Auth & Security</h4>
+      <ul>
+        <li>JWT Authentication</li>
+        <li>Role-Based Access Control</li>
+        <li>bcryptjs</li>
+        <li>Webhook signature verification</li>
+      </ul>
+    </div>
+    <div class="stack-group">
+      <h4>Cloud & DevOps</h4>
+      <ul>
+        <li>Vercel / Render</li>
+        <li>MongoDB Atlas</li>
+        <li>Cloudinary</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </div>
+    <div class="stack-group">
+      <h4>AI Integration</h4>
+      <ul>
+        <li>Groq API</li>
+        <li>LLaMA 3.3 70B</li>
+        <li>Prompt Engineering</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="log" id="log">
+  <div class="section-head">
+    <p class="eyebrow">// 03 — background</p>
+    <h2>Education & credentials.</h2>
+  </div>
+
+  <div class="log-grid">
+    <div class="log-entry">
+      <span class="log-date">2024 — 2026</span>
+      <div class="log-content">
+        <h4>Master of Computer Applications (MCA)</h4>
+        <p>Andhra University, Visakhapatnam — GPA 9.10</p>
+      </div>
+    </div>
+    <div class="log-entry">
+      <span class="log-date">2018 — 2021</span>
+      <div class="log-content">
+        <h4>B.Sc. Computer Science</h4>
+        <p>Andhra University, Visakhapatnam — GPA 7.47</p>
+      </div>
+    </div>
+    <div class="log-entry">
+      <span class="log-date">Certifications</span>
+      <div class="log-content">
+        <h4>NxtWave Disruptive Technologies</h4>
+        <p>React JS · Node JS · JavaScript Web Apps · Python Foundations · Databases · Responsive Web Design</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <p class="eyebrow">// 04 — contact</p>
+    <h2>Let's build something that ships.</h2>
+    <p class="contact-sub">Open to Full Stack, MERN, and AI-integrated engineering roles.</p>
+    <div class="contact-links">
+      <a href="mailto:kushwanth2001@gmail.com" class="contact-link">kushwanth2001@gmail.com</a>
+      <a href="tel:+918074704907" class="contact-link">+91 80747 04907</a>
+    </div>
+    <div class="contact-socials">
+      <a href="https://github.com/kushwanthkumar73" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/kushwanth-kumar-9b0710204" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Built by Kushwanth Kumar Bevara · Visakhapatnam, India</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
